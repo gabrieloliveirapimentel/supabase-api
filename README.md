@@ -41,7 +41,7 @@ cd supabase-api
 
 **Criar arquivo `env`**:
 Na pasta raiz, crie um arquivo `.env` com o seguinte conteúdo:
-```json
+```bash
 DATABASE_URL="postgresql://postgres.<project-ref>:[YOUR_PASSWORD]@aws-0-<region>.pooler.supabase.com:6543/postgres"
 ```
 
